@@ -13,7 +13,7 @@
     $txt = "You Have Receive New Mail.\n Name : ".$name.".\n Email : ".$mailForm. ".\n Phone : ".$subject. ".\n Message : ".$message;
 
     mail($mailTo,"New inquiry from: $name", $txt, $headers);
-   //header("location:https://grillkitchen.co.in");
+   //header("location:index.html");
    
    //$htmlContent = file_get_contents("mail.html");
    
@@ -29,5 +29,5 @@
 
 
 <script language="javascript">
-    window.open("https://grillkitchen.co.in","_self");
+    window.open("index.html","_self");
 </script>
